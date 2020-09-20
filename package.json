@@ -1,0 +1,19 @@
+{
+  "name": "tssc",
+  "version": "1.0.0",
+  "main": "dist/bin/tssc.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "typescript": "^4.1.0-beta",
+    "commander": "^6.1.0",
+    "mkdirp": "^1.0.4"
+  },
+  "devDependencies": {
+    "@types/node": "^14.11.1",
+    "@types/mkdirp": "^1.0.1",
+    "prettier": "^2.1.2"
+  }
+}
